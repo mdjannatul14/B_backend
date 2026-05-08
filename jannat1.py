@@ -41,11 +41,47 @@ if year % 4 == 0:
 else:
     print(year, "is not leap year")
 """
-year = input("your year: ")
+#short
+"""year = input("your year: ")
 year = int(year)
 
 if (year % 100 != 0 and year % 4 == 0) or (year % 400 == 0):
     print(year, "is leap year")   
 else:
-    print("is not leap year")
+    print("is not leap year")"""
 
+"""x = ['1','2','3']
+y = x[1] + x[2]
+print(y)"""
+
+
+
+"""def namota_er_ghor(n):
+    print(n, "x 1 =",  n*1)
+    print(n, "x 2 =",  n*2)
+    print(n, "x 3 =",  n*3)
+    print(n, "x 4 =",  n*4)
+    print(n, "x 5 =",  n*5)
+    print(n, "x 6 =",  n*6)
+    print(n, "x 7 =",  n*7)
+    print(n, "x 8 =",  n*8)
+    print(n, "x 9 =",  n*9)
+    print(n, "x 10 =",  n*10)
+
+n = input("inter yout number: ")
+n = int(n)
+for i in range(1,n+1):
+    namota_er_ghor(i)
+    print()
+
+def namoter_ghor(n):
+
+    for i in range(1,11):
+        print("{} x {} = {}".format(n,i,n*i))
+namoter_ghor(5)"""
+
+number = input("your number: ")
+number = int(number)
+
+for i in range(number,101,):
+    print(i)
