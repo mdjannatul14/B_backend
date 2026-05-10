@@ -98,6 +98,14 @@ number2 = int(number2)
 sum = (number1 + number2)
 print(sum)
 
+#celsius to fahrenheit
+celsius = input("your celsius: ")
+celsius = float(celsius)
+
+fahrenheit = (celsius * 9/5) + 100
+print(fahrenheit)
+
+
 
 
 
