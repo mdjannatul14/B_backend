@@ -80,8 +80,24 @@ def namoter_ghor(n):
         print("{} x {} = {}".format(n,i,n*i))
 namoter_ghor(5)"""
 
-number = input("your number: ")
+"""number = input("your number: ")
 number = int(number)
 
 for i in range(number,101,):
     print(i)
+"""
+
+
+#mini calculator
+number1 = input("your frist number: ")
+number2 = input("your secound number:")
+
+number1 = int(number1)
+number2 = int(number2)
+
+sum = (number1 + number2)
+print(sum)
+
+
+
+
