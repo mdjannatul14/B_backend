@@ -88,7 +88,7 @@ for i in range(number,101,):
 """
 
 
-#mini calculator
+"""#mini calculator
 number1 = input("your frist number: ")
 number2 = input("your secound number:")
 
@@ -103,9 +103,88 @@ celsius = input("your celsius: ")
 celsius = float(celsius)
 
 fahrenheit = (celsius * 9/5) + 100
-print(fahrenheit)
+print(fahrenheit)"""
+
+#mini project
+"""name = input("you name: ")
+age = input("your age: ")
+age = int(age)
+
+if age >= 18:
+    print(name+" congratulation you are adult and your eligible for vote")
+
+else:
+    print("sorry "+name+" you are a child and you are not eligible for vote")"""
+
+
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+"""if __name__ == '__main__':
+    n = int(input().strip())
+    
+
+if (n % 2) == 1:
+    print('Weird')
+    
+elif (n % 2) == 0 and 2 < n > 5:
+    print("Not Weird")
+elif (n % 2) == 0 and 6 < n > 20:
+    print("weird")
+elif (n % 2) == 0 and n <= 20:
+    print("Not Weird")"""
+
+
+
+"""def leap_year(year):
+    leap = False
+
+    if (year % 100 != 0 and year % 4 == 0) or (year % 400 == 0):
+        print(year,True)
+    else:
+        print(year,False)
+    # Write your logic here
+    
+    return leap
+
+year = int(input())
+print("is_leap"(year))
+"""
+
+
+"""if __name__ == '__main__':
+    n = int(input())
+    for i in range(1,n+1):
+        print(i,end="")
+
+
+x = int(input())
+y = int(input())
+z = int(input())
+n = int(input())
+
+result = [[a,b,c] for a in range(x+1) for b in range(y+1) for c in range(z+1) if a+b+c != n]
+print(result)
+"""
+
+"""if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+
+    arr=[]
+    for i in range(n):
+        arr.append(int(input()))
+        arr.sort()
+    print(arr[-2])
+"""
 
 
 
 
-
+                
